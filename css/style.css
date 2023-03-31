@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(62, 23, 100);
+  font-weight: bold;
+}
+.container {
+  width: 100%;
+}
+
+.canvas {
+  float: left;
+  height: 100%;
+}
+
+.myHtml {
+  width: 16%;
+  text-align: center;
+  float: right;
+  margin-right: 28px;
+}
+.myHtml p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.allBtns {
+  margin-top: 10px;
+}
+.btnContainer {
+  margin: 5px;
+}
+.btnContainer button {
+  background-color: rgb(116, 18, 207);
+  color: white;
+  height: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline;
+  padding: 10px;
+}
+.btnContainer button:hover {
+  background-color: rgb(152, 84, 215);
+  color: white;
+  height: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline;
+  padding: 10px;
+}
+
+.canvas p {
+  z-index: 100;
+  font-size: 20px;
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 10px;
+}
+/***********************************/
+.axisText p {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+.axisText p span {
+  font-size: 15px;
+  color: rgb(234, 17, 234);
+}
+.homogArrContainer p {
+  margin: 0;
+}
+.homogArrContainer p span {
+  margin-left: 20px;
+}

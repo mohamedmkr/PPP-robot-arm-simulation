@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>PPP project</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <script async src="./js/three.js"></script>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.139.2/build/three.module.js"
+      }
+    }
+  </script>
+  <body>
+    <div class="container">
+      <div class="canvas">
+        <div
+          style="
+            position: relative;
+            width: 100%;
+            color: honeydew;
+          "
+        >
+          <p style="right: 20px">
+            Mohammad Makarati
+          </p>
+          <p style="color: white">
+            *** Axis Color ***
+          </p>
+          <p style="color: red; top: 30px">
+            X: Red Line
+          </p>
+          <p
+            style="color: greenyellow; top: 60px"
+          >
+            Y: Green Line
+          </p>
+          <p style="color: blue; top: 90px">
+            Z: Blue Line
+          </p>
+        </div>
+      </div>
+      <div class="myHtml">
+        <p>Sham Univesity</p>
+        <p>Robot simulator for type</p>
+        <p style="margin-top: -15px">PPP or 3P</p>
+        <p style="text-decoration: underline">
+          Controlling Joints:
+        </p>
+        <div class="allBtns">
+          <div class="btnContainer">
+            <p>joint 1 green:</p>
+            <button id="testBtn2">plus</button>
+            <button id="testBtn2m">Mince</button>
+          </div>
+          <div class="btnContainer">
+            <p>joint 2 purple:</p>
+            <button id="testBtn">plus</button>
+            <button id="testBtnm">Mince</button>
+          </div>
+          <div class="btnContainer">
+            <p>joint 3 Red:</p>
+            <button id="testBtn3">plus</button>
+            <button id="testBtn3m">Mince</button>
+          </div>
+        </div>
+        <hr />
+        <div class="axis">
+          <p style="text-decoration: underline">
+            The Important Vertices:
+          </p>
+          <div class="axisText">
+            <p>
+              Base: X:<span id="baseX">0</span> --
+              Y:<span id="baseY">0</span> --
+              Z:<span id="baseZ">0</span>
+            </p>
+            <p>
+              End Effector: X:<span id="endX"
+                >0</span
+              >
+              -- Y:<span id="endY">0</span> --
+              Z:<span id="endZ">0</span>
+            </p>
+          </div>
+          <hr />
+          <!-- This feature is not complete yet -->
+          <p style="text-decoration: underline">
+            Homogenues Transformaion
+          </p>
+          <!-- <div class="homogArrContainer">
+            <p>
+              <span>1</span> <span>0</span>
+              <span>0</span> <span>0</span>
+            </p>
+            <p>
+              <span>0</span> <span>1</span>
+              <span>0</span> <span>0</span>
+            </p>
+            <p>
+              <span>0</span> <span>0</span>
+              <span>1</span> <span>0</span>
+            </p>
+            <p>
+              <span>0</span> <span>0</span>
+              <span>0</span> <span>1</span>
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="./js/source/index.js"
+    ></script>
+  </body>
+</html>
