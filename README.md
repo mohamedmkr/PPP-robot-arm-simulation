@@ -6,7 +6,7 @@ This robot (which has three joints) is designed for drilling, it is useful in cr
 
 If you notice in the project (download and run it) there are buttons to move the joints, and there are the current coordinates for both the end effector and the base.
 
-The project still needs to add the transformation matrix, so that whenever we animate we should get the animate matrix (the homogeneous matrix that needs to be multiplied by the base matrix to get the coordinates for the limit operator)
+The project still needs to add the transformation matrix, so that whenever we animate we should get the animate matrix (the homogeneous matrix that needs to be multiplied by the base matrix to get the coordinates for end effector)
 
 هذا عبارة عن مشروع صغير لمحاكاة ذراع روبوت من نوع PPP وتحريكه باستخدام المصفوفات المتجانسة والعمليات عليها. تم تنفيذ هذا المشروع باستخدام HTML5  و CSS3 و JS مستعينيين فيه بمكتبة THREE JS للتحريك ثلاثي الأبعاد.
 
