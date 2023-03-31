@@ -1,5 +1,7 @@
 # PPP robot arm simulation
 
+<img src="https://github.com/mohamedmkr/PPP-robot-arm-simulation/blob/883815faef1b7df278f6bff588ce30038099f61f/screenshots/1.png" width="400" height="200"><img src="https://github.com/mohamedmkr/PPP-robot-arm-simulation/blob/883815faef1b7df278f6bff588ce30038099f61f/screenshots/2.png" width="400" height="200"><img src="https://github.com/mohamedmkr/PPP-robot-arm-simulation/blob/883815faef1b7df278f6bff588ce30038099f61f/screenshots/3.png" width="400" height="200"><img src="https://github.com/mohamedmkr/PPP-robot-arm-simulation/blob/883815faef1b7df278f6bff588ce30038099f61f/screenshots/4.png" width="400" height="200">
+
 This is a small project to simulate and animate a PPP robot arm using homogeneous matrices and operations on them. This project was implemented using HTML5, CSS3 and JS using the THREE JS library for 3D animation.
 
 This robot (which has three joints) is designed for drilling, it is useful in critical situations, in high temperature or repetitive work (within industrial laboratories).
