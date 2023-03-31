@@ -22,3 +22,6 @@ The project still needs to add the transformation matrix, so that whenever we an
 إذا لاحظت في المشروع (قم بتنزيله وتشغيله) يوجد أزرار لتحريك المفاصل، ويوجد الإحداثيات الحالية لكل من مؤثر النهاية والقاعدة.
 
 ما زال المشروع بحاجة لإضافة مصفوفة التحويل، بحيث كلما قمنا بالتحريك يجب أن نحصل على مصفوفة التحريك (المصفوفة المتجانسة التي يجب ضربها بمصفوفة القاعدة لنحصل على الإحداثيات لمؤثر النهاية)
+
+رابط شرح الرسم:
+https://drive.google.com/drive/folders/19MEoLKEKEYht_IYhCCgdwWwhd8O1EJge?usp=share_link
